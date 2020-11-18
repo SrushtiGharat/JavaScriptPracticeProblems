@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<script>
+'use strict';
+
+let choice = parseInt(prompt("1.Celcius to Fahrenheit\n2.Fahrenheit to Celcius"));
+let temperature = parseInt(prompt("Enter temperature"));
+
+switch(choice)
+{
+    case 1:
+        let f = (temperature*9/5)+32;
+        alert(temperature+" Celcius : "+f+" Fahrenheit");
+        break;
+    case 2:
+        let c = (temperature - 32)*5/9;
+        alert(temperature+" Fahrenheit : "+c+" Celcius");
+        break;
+    default:
+        alert("Wrong choice");
+}
+</script>
