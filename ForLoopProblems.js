@@ -63,7 +63,7 @@
     }
     console.log("Factorial : "+factorial);
 }
-//6.Factors of given number
+//6.Prime Factors of given number
 {
     const process = require('process');
     let inputNumber = parseInt(process.argv[3]);
